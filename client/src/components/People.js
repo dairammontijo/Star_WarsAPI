@@ -4,6 +4,7 @@ import axios from "axios"
 const People = (props) => {
     const { id } = props
     const [apiData, setApiData] = useState({})
+    
     useEffect(() => {
         axios
             .get(`https://swapi.dev/api/people/${id}`)
@@ -13,6 +14,7 @@ const People = (props) => {
             })
             .catch((err) => console.log(err))
     }, [])
+    
     return (
         <div>
             <h1>{apiData.name}</h1>
