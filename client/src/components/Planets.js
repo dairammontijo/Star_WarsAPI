@@ -16,7 +16,7 @@ const Planets = (props) => {
     }, [])
 
     return (
-        <div>
+        <div class="form-control bg-secondary text-center">
             <h1>{apiData.name}</h1>
             <p>Rotation Period: {apiData.rotation_period}</p>
             <p>Orbital Period: {apiData.orbital_period}</p>

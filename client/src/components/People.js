@@ -14,9 +14,9 @@ const People = (props) => {
             })
             .catch((err) => console.log(err))
     }, [])
-    
+
     return (
-        <div>
+        <div class="form-control bg-secondary">
             <h1>{apiData.name}</h1>
             <p>Height:{apiData.height}</p>
             <p>Hair Color:{apiData.hair_color}</p>

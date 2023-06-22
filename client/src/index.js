@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+
+// const IMAGES = {
+//   imageOne: require('./images/darth.jpeg'),
+//   imageTwo: require('./images/star-wars.jpeg')
+// }
+// export default IMAGES
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
